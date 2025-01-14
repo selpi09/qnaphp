@@ -11,7 +11,7 @@ $password = $_POST['password'];
 
 
 // menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi,"SELECT if0_37469871_laravel FROM multi_user WHERE nimnip='$nimnip' AND password='$password'");
+$login = mysqli_query($koneksi,"SELECT * FROM user WHERE nimnip='$nimnip' AND password='$password'");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
 
