@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("sql303.infinityfree.com", "if0_37469871","Ylf7zq5n16 ","if0_37469871_laravel");
+$koneksi = mysqli_connect("localhost", "root"," ","multi_user");
  
 // Check connection
 if (mysqli_connect_errno()){
